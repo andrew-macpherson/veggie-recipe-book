@@ -12,7 +12,7 @@ class App extends React.Component {
       </header>
 
       <div className="container">
-        <Route path="/home" component={Home} />
+        <Route exact={true} path="/" component={Home} />
         <Route path="/recipe" component={Recipe} />
       </div>
     </div>
